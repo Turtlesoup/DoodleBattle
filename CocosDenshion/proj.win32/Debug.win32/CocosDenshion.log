@@ -1,0 +1,24 @@
+﻿Build started 10/10/2013 20:31:15.
+     1>Project "C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\CocosDenshion\proj.win32\CocosDenshion.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\".
+       InitializeBuildStatus:
+         Creating "Debug.win32\libCocosDenshion.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\\" winmm.lib libcocos2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\libCocosDenshion.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.lib" /MACHINE:X86 /DLL Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+     1>MciPlayer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.lib and object C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.exp
+         CocosDenshion.vcxproj -> C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\Debug.win32\libCocosDenshion.dll;#2" /manifest Debug.win32\libCocosDenshion.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libCocosDenshion.unsuccessfulbuild".
+         Touching "Debug.win32\libCocosDenshion.lastbuildstate".
+     1>Done Building Project "C:\Users\Luke\Desktop\Turtlesoup Games\C++\Visual Studio 2010\Projects\CocosGame\CocosDenshion\proj.win32\CocosDenshion.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.50

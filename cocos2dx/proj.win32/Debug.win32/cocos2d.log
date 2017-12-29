@@ -1,0 +1,152 @@
+﻿Build started 19/05/2013 13:45:26.
+     1>Project "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\cocos2dx\proj.win32\cocos2d.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\".
+       InitializeBuildStatus:
+         Creating "Debug.win32\libcocos2d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       PreLinkEvent:
+         if not exist "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\" mkdir "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\cocos2dx\proj.win32\..\platform\third_party\win32\libraries\*.*" "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         15 File(s) copied
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\libcocos2d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.lib" /MACHINE:X86 /DLL Debug.win32\CCAtlasNode.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCObject.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\CCZone.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCEGLViewProtocol.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCImageCommonWebp.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         Debug.win32\platform.obj
+         Debug.win32\CCAccelerometer.obj
+         Debug.win32\CCApplication.obj
+         Debug.win32\CCCommon.obj
+         Debug.win32\CCDevice.obj
+         Debug.win32\CCEGLView.obj
+         Debug.win32\CCFileUtilsWin32.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCStdC.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCShaderCache.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCPointExtension.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\ZipUtils.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCTexturePVR.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\CCTouchDispatcher.obj
+         Debug.win32\CCTouchHandler.obj
+         Debug.win32\CCKeypadDelegate.obj
+         Debug.win32\CCKeypadDispatcher.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\aabb.obj
+         Debug.win32\mat3.obj
+         Debug.win32\mat4.obj
+         Debug.win32\neon_matrix_impl.obj
+         Debug.win32\plane.obj
+         Debug.win32\quaternion.obj
+         Debug.win32\ray2.obj
+         Debug.win32\utility.obj
+         Debug.win32\vec2.obj
+         Debug.win32\vec3.obj
+         Debug.win32\vec4.obj
+         Debug.win32\mat4stack.obj
+         Debug.win32\matrix.obj
+         Debug.win32\CCCamera.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\cocos2d.obj
+     1>CCAtlasNode.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.lib and object C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         cocos2d.vcxproj -> C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\template\multi-platform-cpp\proj.win32\Debug.win32\libcocos2d.dll;#2" /manifest Debug.win32\libcocos2d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libcocos2d.unsuccessfulbuild".
+         Touching "Debug.win32\libcocos2d.lastbuildstate".
+     1>Done Building Project "C:\Users\Luke\Desktop\cocos2d-2.1rc0-x-2.1.3\cocos2dx\proj.win32\cocos2d.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.41
